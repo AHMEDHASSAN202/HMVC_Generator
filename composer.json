@@ -7,12 +7,19 @@
             "email": "ahmedhassanhassan707@gmail.com"
         }
     ],
+    "keywords": ["laravel", "laravel HMVC", "HMVC", "laravel modules"],
+    "minimum-stability": "stable",
     "autoload": {
       "files": [
         "src/app/Helpers/functions.php"
       ],
       "psr-4": {
-        "HMVC_Generator\\": "src"
+        "HMVC_Generator\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": ["HMVC_Generator\\HMVC_GeneratorServiceProvider"]
       }
     },
     "require": {}
