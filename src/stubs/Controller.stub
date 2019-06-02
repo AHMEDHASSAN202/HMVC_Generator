@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Modules\{{module_name}}\Http\Controllers;
+
+
+use App\Http\Controllers\Controller;
+
+class {{controller_name}} extends Controller
+{
+    public function index() {
+        return view('{{module_name_small}}::test');
+    }
+}

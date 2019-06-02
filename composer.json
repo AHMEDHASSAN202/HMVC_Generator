@@ -1,0 +1,19 @@
+{
+    "name": "ahmed/hmvc_generator",
+    "description": "this package which created to manage your large laravel app using modules [HMVC]",
+    "authors": [
+        {
+            "name": "Ahmed Hassan Elbhai",
+            "email": "ahmedhassanhassan707@gmail.com"
+        }
+    ],
+    "autoload": {
+      "files": [
+        "src/app/Helpers/functions.php"
+      ],
+      "psr-4": {
+        "HMVC_Generator\\": "src"
+      }
+    },
+    "require": {}
+}

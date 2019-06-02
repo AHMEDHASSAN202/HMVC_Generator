@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Modules\{{module_name}}\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class {{model_name}} extends Model
+{
+
+}
