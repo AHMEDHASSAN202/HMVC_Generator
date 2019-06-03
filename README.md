@@ -62,3 +62,5 @@ php artisan module:migration <migration_name> --module_name=<module_name> --tabl
 
 ### Views
 > Calling View: view('<module_name>::view_file_name')
+
+## You need to add module service provider to the list of providers in the config/app.php file
